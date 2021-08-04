@@ -58,6 +58,11 @@ const routes = [
         name: '404Resource',
         component: NotFound,
         props: true
+    },
+    {
+        path: '/network-error',
+        name: 'NetworkError',
+        component: NetworkError
     }
 ]
 
