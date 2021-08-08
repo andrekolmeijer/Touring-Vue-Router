@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <div id="flashMessage" v-if="GStore.flashMessage">
+    <div id="flashMessage"
+         v-if="GStore.flashMessage">
       {{ GStore.flashMessage }}
     </div>
     <div id="nav">
